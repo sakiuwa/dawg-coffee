@@ -1,1 +1,213 @@
 /* Your stylesheet goes here */
+/*importing bootstrap*/
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+/*importing fonts*/
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic);
+
+/*importing Font Awesome*/
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #e9eaee;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: Raleway, "Helvetica Neue", Helvetica, sans-serif;
+}
+h2 {
+	color: #bc6026;
+}
+svg {
+	height: 1em;
+}
+
+/*navbar*/
+nav {
+	background-color: #181c22;
+	font-size: 16px;
+}
+.nav {
+	margin-left: 15px;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+nav ul {
+	margin: 0px;
+}
+.nav li {
+	display: inline-block;
+	list-style: none;
+}
+.nav li:hover {
+	text-decoration: none;
+}
+.nav li a {
+	color: white;
+	font-variant: small-caps;
+	padding: 0.5em;
+}
+.nav li a:hover {
+	color: #d87e28;
+}
+nav svg {
+	fill: white;
+}
+nav svg:hover {
+	fill: #d87e28;
+}
+
+/*header*/
+header p {
+	display: none;
+	margin-bottom: 1em;
+}
+h1 {
+	padding-top: 3em;
+	margin-top: 0px;
+}
+
+/*headline*/
+headline {
+	font-style: italic;
+}
+headline svg {
+	display: none;
+}
+
+/*cafe*/
+#cafe {
+	text-align: center;
+	margin: auto;
+	background-color: #dbdce3;
+	padding: 1em;
+}
+#cafe svg {
+	fill: #d87e28;
+}
+.box {
+	padding: 1em;
+}
+#location img {
+	border-radius: 5px;
+}
+
+/*menu*/
+#menu {
+	padding: 1em;
+}
+#menu dd {
+	font-style: italic;
+	padding-left: 1em;
+}
+
+/*story*/
+#story {
+	background-color: #dbdce3;
+	padding: 1em;
+}
+#story img {
+	float: right;
+	max-height: 300px;
+	margin-left: 1em;
+	border-radius: 5px;
+}
+
+/*footer*/
+footer {
+	font-size: 12px;
+	background-color: #afb3c2;
+	padding: 1em;
+	border: 3px;
+	border-style: solid none none none;
+	border-color: #d87e28;
+}
+
+/*order page*/
+#coming-soon {
+	text-align: left;
+	padding-top: 1em;
+}
+
+@media screen and (min-width: 768px) {
+	body {
+		font-size: 20px;
+	}
+	h2 {
+		text-align: center;
+		padding-bottom: 1em;
+	}
+	nav {
+		background-color: rgba(24, 28, 34, 0.8);
+	}
+	.navbar-nav {
+		padding: 0px;
+	}
+	.nav li a {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	header {
+		background-image: url(../img/background-sm.jpg);
+		background-size: cover;
+		background-repeat: no-repeat;
+		min-height: 550px;
+		color: white;
+		text-align: right;
+	}
+	header p {
+		display: block;
+	}
+	headline {
+		
+	}
+	headline p {
+		text-align: center;
+		font-size: 1.25em;
+		margin-bottom: 3em;
+	}
+	headline svg {
+		display: block;
+		margin: auto;
+		fill: #d87e28;
+		height: 1.5em;
+		margin-bottom: 1em;
+		margin-top: 3em;
+	}
+	#story img {
+		max-height: 400px;
+	}
+	footer p {
+		text-align: right;
+	}
+	footer.clear {
+		clear: above;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	header {
+		background-image: url(../img/background-md.jpg);
+	}
+	header h1 {
+		font-size: 4em;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	header {
+		background-image: url(../img/background-lg.jpg);
+	}
+}
+
+
+
+
+
+
+
+
+
